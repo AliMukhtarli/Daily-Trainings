@@ -46,6 +46,12 @@ public class Main {
             reverseArray.add(i);
         
         }System.out.println(reverseArray);
+
+
+        // Count characters 
+        String[] salamlama = {"Salam, bu gun men bu cumledeki herflerin sayini tapacam"};
+        int k = salamlama[0].replace(" ","").length();
+        System.out.println("Cumlenin uzunluqu: " + k);
         
 
 
