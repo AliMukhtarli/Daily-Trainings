@@ -54,6 +54,23 @@ public class Main {
         System.out.println("Cumlenin uzunluqu: " + k);
         
 
+        //Cheking palindrome
+        String soz = "ana";
+        int sol = 0;
+        int sag = soz.length() - 1;
+
+        while( sol < sag){
+            if(soz.charAt(sol) != soz.charAt(sag) ){
+                System.out.println("Palindrom deyil");
+                return;
+            }
+            sag--;
+            sol++;
+        }
+        System.out.println("Palindromdur");
+        
+
+
 
     }
 }
