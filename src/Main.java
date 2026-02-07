@@ -37,6 +37,15 @@ public class Main {
         int length = largestNumbers.length;
         length = length - 2;
         System.out.println(largestNumbers[length]);
+
+        // Reverse the Array
+        int[] array = {2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17};
+        int arrayLength = array.length;
+        ArrayList<Integer> reverseArray = new ArrayList<Integer>();
+        for(int i=arrayLength ; i>=0; i--){
+            reverseArray.add(i);
+        
+        }System.out.println(reverseArray);
         
 
 
