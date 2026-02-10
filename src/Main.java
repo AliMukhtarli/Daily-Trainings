@@ -68,7 +68,7 @@ public class Main {
             sol++;
         }
         System.out.println("Palindromdur");
-        System.out.println("Elmire git izah edirem");
+        
         
 
 
